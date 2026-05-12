@@ -85,4 +85,34 @@
     z-index: 2;
     text-align: center;
 }
+.cta-button {
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e55a2b;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .promo h1 {
+        font-size: 2rem;
+    }
+    
+    .promo p {
+        font-size: 1rem;
+    }
+    
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
 
